@@ -1,5 +1,7 @@
 python version: 2.7
+
 1.to implement MDDT run main.py
+
 2. most of the data sets used in the paper come from https://github.com/vlosing/driftDatasets/
    due to the upload limit of github, we only supplement three excluded data sets: sine1, sine2, stagger(foked from  https://github.com/alipsgh/data_streams
 
