@@ -1,0 +1,6 @@
+{
+    "filepath":"artificial/sine1/",
+    "batchsize":10,
+    "windowsize":30,
+    "classifier":"KNN"
+}

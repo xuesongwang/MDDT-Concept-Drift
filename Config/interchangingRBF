@@ -1,0 +1,6 @@
+{
+    "filepath":"artificial/rbf/",
+    "batchsize":10,
+    "windowsize":30,
+    "classifier":"KNN"
+}

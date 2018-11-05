@@ -1,0 +1,6 @@
+{
+    "filepath":"artificial/movingSquares/",
+    "batchsize":10,
+    "windowsize":30,
+    "classifier":"KNN"
+}

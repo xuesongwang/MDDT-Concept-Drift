@@ -1,0 +1,6 @@
+{
+    "filepath":"realWorld/poker/",
+    "batchsize":50,
+    "windowsize":30,
+    "classifier":"linear_regression"
+}

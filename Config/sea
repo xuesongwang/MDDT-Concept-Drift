@@ -1,0 +1,6 @@
+{
+    "filepath":"artificial/sea/",
+    "batchsize":10,
+    "windowsize":30,
+    "classifier":"KNN"
+}
