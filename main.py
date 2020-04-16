@@ -31,7 +31,7 @@ if __name__ == '__main__':
     # data preprocessing including data reading, batch splitting and probable data augmenting
     data = dp.data_preprocessing(parameters["outpath"],parameters["batchsize"])
 
-    print "total time step: %d" % (data.shape[0]/parameters["batchsize"])
+    print ("total time step: %d" % (data.shape[0]/parameters["batchsize"]))
 
     start = time.clock()
     MDDT = DriftDetection(data = data, parameter=parameters)
@@ -39,8 +39,8 @@ if __name__ == '__main__':
     acc = MDDT.train_and_detect()
     # acc = MDDT.constant_adaptation()
     end = time.clock()
-    print "time:%f"%(end-start)
-    print "average accuracy:  %s %%" % (100 * acc)
+    print ("time:%f"%(end-start))
+    print ("average accuracy:  %s %%" % (100 * acc))
 
     # plot features and accuracy
     # plot_features(acc,D)

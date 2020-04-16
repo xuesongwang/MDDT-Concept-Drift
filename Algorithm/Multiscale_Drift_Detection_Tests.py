@@ -116,9 +116,9 @@ class DriftDetection:
         y = sub_data[:,-1]
         try:
             clf.fit(x, y)
-            print clf.score(x, y)
+            print (clf.score(x, y))
         except:
-            print clf.score(x,y)
+            print (clf.score(x,y))
         self.clf = clf
 
     def drift_detection(self, D):
@@ -167,7 +167,7 @@ class DriftDetection:
                 DriftIndicators = DriftIndicators[-self.windowsize:]
             if len(DriftIndicators) > 500:
                 DriftIndicators = DriftIndicators[DriftIndicators.shape[0]/2:]
-        print np.array(detected_time)/batchsize
+        print (np.array(detected_time)/batchsize)
         # pd.Series(np.array(detected_time)).to_csv('stagger.csv',index=False)
         # plot_index = np.arange(0,len(predicted),len(predicted)/1000)
         # pd.Series(np.array(predicted)[plot_index]).to_csv('Result/average_accuracy_without_adaptation/interchangingRBF.csv',index=False)
