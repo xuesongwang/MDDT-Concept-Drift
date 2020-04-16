@@ -98,6 +98,12 @@ def dataset_config(name):
     if name == 'weather':
         xpath = filepath + 'NEweather_data.csv'
         ypath = filepath + 'NEweather_class.csv'
+    if name == 'sea':
+        xpath = filepath + 'SEA_training_data.csv'
+        ypath = filepath +'SEA_training_class.csv'
+    if name == 'Elec2':
+        xpath = filepath + 'elec2_data.dat'
+        ypath = filepath + 'elec2_label.dat'
     parameters = {
         "outpath":(xpath, ypath),
         "batchsize": jsonData['batchsize'],

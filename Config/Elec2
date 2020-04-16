@@ -1,5 +1,5 @@
 {
-    "filepath":"realWorld/elec2/",
+    "filepath":"realWorld/Elec2/",
     "batchsize":10,
     "windowsize":30,
     "classifier":"KNN"
