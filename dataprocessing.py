@@ -101,6 +101,9 @@ def dataset_config(name):
     if name == 'sea':
         xpath = filepath + 'SEA_training_data.csv'
         ypath = filepath +'SEA_training_class.csv'
+    if name == 'covType':
+        xpath = filepath + 'covType_data.csv'
+        ypath = filepath + 'covType_label.csv'
     if name == 'Elec2':
         xpath = filepath + 'elec2_data.dat'
         ypath = filepath + 'elec2_label.dat'

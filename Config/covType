@@ -1,5 +1,5 @@
 {
-    "filepath":"realWorld/coverType/",
+    "filepath":"realWorld/covType/",
     "batchsize":10,
     "windowsize":30,
     "classifier":"KNN"
